@@ -7,10 +7,11 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 // using method reverse
-	function reverse(str) {
-		return str.split('').reverse().join('');
-	}
-reverse("str");
+function reverse(str) {
+	return str.split('').reverse().join('');
+}
+
+console.log(reverse("str"));
 
 // using a loop
 	// function reverse(str) {
